@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BossRow", "BossRow.csproj", "{A2AE373F-A336-42B8-A713-159BC0964162}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BossRow.Test", "..\TestFunctionalities\BossRow.Test.csproj", "{426D0251-CF2D-4592-983B-ECDF3E1D0DFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2AE373F-A336-42B8-A713-159BC0964162}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2AE373F-A336-42B8-A713-159BC0964162}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2AE373F-A336-42B8-A713-159BC0964162}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2AE373F-A336-42B8-A713-159BC0964162}.Release|Any CPU.Build.0 = Release|Any CPU
+		{426D0251-CF2D-4592-983B-ECDF3E1D0DFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{426D0251-CF2D-4592-983B-ECDF3E1D0DFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{426D0251-CF2D-4592-983B-ECDF3E1D0DFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{426D0251-CF2D-4592-983B-ECDF3E1D0DFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9E75302F-C0E9-4049-AB76-18026DFE50FD}
+	EndGlobalSection
+EndGlobal
