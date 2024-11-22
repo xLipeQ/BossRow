@@ -40,5 +40,16 @@ namespace BossRow.Test
             new Employee(4, "")
         };
 
+        public List<Employee> IdNotOrdered = new()
+        {
+            new Employee(5, "Jan Kowalski", 3),
+            new Employee(6, "Kamil Nowak", 3),
+            new Employee(2, "Anna Mariacka", 5),
+            new Employee(1, "Andrzej Abacki", 6),
+            new Employee(3, "ssss", 4),
+            new Employee(7, "ffff", 4),
+            new Employee(4, "aaaa")
+        };
+
     }
 }
