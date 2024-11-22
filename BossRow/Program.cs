@@ -1,4 +1,6 @@
-﻿namespace BossRow
+﻿using System.Threading.Channels;
+
+namespace BossRow
 {
     public static class Program
     {
@@ -14,6 +16,9 @@
 
             var func = new Funcitonalitites();
             func.FillEmployeesStructure(employees);
+
+            foreach(var e in employees)
+                Console.WriteLine(e);
 
             Console.WriteLine("Tabela employeeStructure dla danych z zadania: ");
             Console.WriteLine($"{"EmployeeId",-12} {"SuperiorId",-12} {"Row",-5}");
@@ -36,6 +41,8 @@
                 new Employee(6, "Szósty", 5),
                 new Employee(7, "Siódmy", 6)
             };
+            foreach (var e in trainEmployees)
+                Console.WriteLine(e);
 
             func.FillEmployeesStructure(trainEmployees);
             Console.WriteLine("Tabela employeeStructure dla ciągu 7 pracowników: ");
@@ -48,7 +55,7 @@
             Console.WriteLine();
             Console.WriteLine();
 
-
+            
             List<Employee> treeEmployees = new List<Employee>()
             {
                 new Employee(1, "Jan Kowalski"),
@@ -59,6 +66,8 @@
                 new Employee(6, "Szósty", 5),
                 new Employee(7, "Siódmy", 5),
             };
+            foreach (var e in treeEmployees)
+                Console.WriteLine(e);
 
             func.FillEmployeesStructure(treeEmployees);
             Console.WriteLine("Tabela employeeStructure dla wyważonego drzewa 7 pracowników: ");
